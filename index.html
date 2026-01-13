@@ -1,51 +1,64 @@
-<!-- github pages trigger --><!DOCTYPE html>
+
+<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-  <title>Kuyumcu Fiyat Ekranı</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mercan Kuyumculuk Güncel Fiyat Listesi</title>
   <style>
     body {
-      background:#111;
-      color:#0f0;
-      font-family: Arial, sans-serif;
-      font-size: 28px;
-      padding:20px;
+      background: #0b0b0b;
+      color: #ffd700;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
     }
     h1 {
-      text-align:center;
-      color:#ffd700;
+      margin-top: 20px;
+      font-size: 36px;
     }
     table {
-      width:100%;
+      margin: 30px auto;
       border-collapse: collapse;
-      margin-top:30px;
+      width: 80%;
+      font-size: 26px;
     }
-    td {
-      padding:12px;
-      border-bottom:1px solid #333;
+    th, td {
+      border: 2px solid #ffd700;
+      padding: 12px;
     }
-    .right {
-      text-align:right;
+    th {
+      background: #1a1a1a;
+    }
+    td input {
+      width: 100%;
+      font-size: 24px;
+      text-align: center;
+      background: black;
+      color: #00ff99;
+      border: none;
+      outline: none;
     }
   </style>
 </head>
 <body>
 
-<h1>KUYUMCU FİYAT EKRANI</h1>
+<h1>Mercan Kuyumculuk<br>Güncel Fiyat Listesi</h1>
 
 <table>
-  <tr><td>Gram Altın</td><td class="right">---</td></tr>
-  <tr><td>Çeyrek</td><td class="right">---</td></tr>
-  <tr><td>Yarım</td><td class="right">---</td></tr>
-  <tr><td>Tam</td><td class="right">---</td></tr>
-  <tr><td>Dolar</td><td class="right">---</td></tr>
-  <tr><td>Euro</td><td class="right">---</td></tr>
-</table>
+  <tr>
+    <th>ÜRÜN</th>
+    <th>ALIŞ</th>
+    <th>SATIŞ</th>
+  </tr>
 
-<p style="text-align:center;margin-top:40px;font-size:18px;color:#777;">
-Sadece dükkan içi kullanım
-</p>
+  <tr><td>Has Altın</td><td><input></td><td><input></td></tr>
+  <tr><td>Çeyrek Altın</td><td><input></td><td><input></td></tr>
+  <tr><td>Yarım Altın</td><td><input></td><td><input></td></tr>
+  <tr><td>Cumhuriyet</td><td><input></td><td><input></td></tr>
+  <tr><td>Gram Altın</td><td><input></td><td><input></td></tr>
+  <tr><td>Bilezik</td><td><input></td><td><input></td></tr>
+  <tr><td>Dolar ($)</td><td><input></td><td><input></td></tr>
+  <tr><td>Euro (€)</td><td><input></td><td><input></td></tr>
+</table>
 
 </body>
 </html>
